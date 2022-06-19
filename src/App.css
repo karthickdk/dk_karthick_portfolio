@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height        : 40vmin;
   pointer-events: none;
 }
 
@@ -15,13 +15,13 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height      : 100vh;
+  display         : flex;
+  flex-direction  : column;
+  align-items     : center;
+  justify-content : center;
+  font-size       : calc(10px + 2vmin);
+  color           : white;
 }
 
 .App-link {
@@ -32,7 +32,164 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.is-sticky {
+  position        : fixed;
+  top             : 0;
+  left            : 0;
+  width           : 100%;
+  z-index         : 999;
+  box-shadow      : 0 2px 24px 0 rgb(0 0 0 / 15%);
+  background-color: #ffffff !important;
+  animation       : 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding-top     : 0px;
+  padding-bottom  : 0px;
+}
+
+.header-section {
+  background-color: #0B0952 !important;
+  height          : 85px;
+  vertical-align  : middle;
+}
+
+.header-color {
+  background-color: #07053b !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.dk-portfolio-navbar {
+  position : absolute;
+  top      : 50%;
+  transform: translateY(-50%);
+}
+
+.dk-basic-profile {
+  min-height      : 700px;
+  background-color: #0B0952 !important;
+  color           : white;
+  overflow-x      : hidden;
+}
+
+.dk-profile-info {
+  height: 700px;
+}
+
+.profile-name {
+  display       : flex !important;
+  align-items   : center !important;
+  vertical-align: middle;
+  font-size     : 85px;
+  font-weight   : 700;
+  color         : #fff;
+  margin-bottom : 0;
+  line-height   : 100px;
+  text-align    : center;
+}
+
+.profile-name span {
+  color: #fe3e57;
+}
+
+.profile-img {
+  display       : flex !important;
+  align-items   : center !important;
+  vertical-align: middle;
+}
+
+.dk-profile-info-cols {
+  padding-bottom: 0px !important;
+}
+
+.dk-basic-profile .ui.grid {
+  margin: 10px;
+}
+
+.dk-exp-stat {
+  /* float       : right;
+  margin-right: 230px;
+  margin-top  : -120px; */
+  background-color: #070640 !important;
+}
+
+.dk-exp-stat-card {
+  background-image: linear-gradient(90deg, rgba(231, 24, 96, .9), rgba(231, 160, 50, .9)) !important;
+  height          : 200px !important;
+  width           : 350px !important;
+  color           : white !important;
+  box-shadow      : 0 2px 24px 0 rgb(0 0 0 / 15%) !important;
+  border-radius   : 15px !important;
+  background-color: #070640 !important;
+  left            : 1000px !important;
+  margin-top      : -100px !important;
+}
+
+.dk-exp-stat-years {
+  font-size    : 126px;
+  color        : #fff;
+  margin-bottom: 0;
+  text-align   : center;
+  font-family  : Conv_Now-Bold;
+}
+
+.dk-exp-stat-years-text {
+  display       : flex !important;
+  align-items   : center !important;
+  vertical-align: middle;
+  font-size     : 23px;
+  font-family   : Conv_Now-Bold;
+}
+
+.dk-exp-stat-card-row {
+  padding: 0px !important;
+}
+
+.dk-exp-stat-card-grid {
+  display: contents !important;
+}
+
+.dk-skills {
+  background-color: #070640;
+  color           : white;
+}
+
+.dk-skills-header {
+  font-size  : 70px;
+  font-weight: 700;
+  margin-left: 50px;
+}
+
+.dk-skills-content {
+  margin-left : 50px;
+  margin-right: 50px;
+  color       : white !important;
+}
+
+.dk-skills-content .ui.segment.active.tab {
+  background-color: #070640 !important;
+  color           : white !important;
+}
+
+.ui.pointing.secondary.menu .item {
+  background-color: #070640 !important;
+  color           : white !important;
+}
+
+.ui.pointing.secondary.menu .active.item {
+  background-color: #070640 !important;
+  color           : white !important;
+  border-color    : #1288ff;
+}
+
+.ui.pointing.secondary.menu .active.item:hover {
+  background-color: #070640 !important;
+  color           : white !important;
+  border-color    : #1288ff;
 }
